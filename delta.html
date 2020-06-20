@@ -23,6 +23,8 @@
         border-bottom-style: solid;
         border-color:#e31c34;
     }
+   
+    
     .linealateral{
         border-left-style:  solid;
         border-left-width: thin;        
@@ -37,7 +39,7 @@
         position: relative;
         display: inline-block;
         text-align: center;
-        
+
     }
     
     .texto-encima{
@@ -59,7 +61,7 @@
     .texto-encima4{
         position: absolute;
         top: 230px;
-        left: 5.5%;
+        left: 4%;
     }
     .p {
                 font-size: 300%;
@@ -67,7 +69,7 @@
                 letter-spacing: -4px;
                 text-align: center;                
                 text-transform: uppercase;
-                background-color:#4b5f77;
+                
     }
     .p2{
         font-size: 100%;
@@ -75,7 +77,7 @@
                 letter-spacing: 2px;
                 text-align: center;                
                 text-transform:initial ;
-                background-color:#4b5f77;
+                
     }
     .btn-rojo-pequeño{
         border-bottom-style: solid;
@@ -95,65 +97,179 @@
         height: 70;
 
     }
+    .bk-form span{
+        color: white;
+    }
+    .arrow{
+        background-color: red;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 3rem;
+    }
+    .btn-circle{
+        border-radius: 5rem; width: 3rem; height: 3rem; 
+        background-color: #e31c34; 
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: ;
+        margin: 0;
+        cursor: pointer;
+    }
+    .ex2 {
+        font-size: 50px;
+    }
 
 
 </style>
 
 <body>
-    <div class="d-flex flex-md-row align-items-center p-3 px-md-4 bg-bluedark border-bottom shadow-sm ">
-        <img src="delta-airlines.png " width="1.8% " alt="Delta Airlines "  class="ml-4 " >
+    <div class="d-flex flex-md-row align-items-center p-4 px-md-4 bg-bluedark border-bottom shadow-sm ">
+        <img src="https://github.com/outso15/delta/blob/master/delta-airlines.png?raw=true " width="1.8% " alt="Delta Airlines "  class="ml-4 " >
         <h4 class="my-0 mr-1 md-auto font-weight-bold text-light ml-2 " >D E L T A</h4>
-        <img src="sky Team.svg " alt="Sky Team " class=" " >
+        <img src="https://raw.githubusercontent.com/outso15/delta/d71160e44076ae20605ec1ab43490def9358aea4/Sky%20Team.svg " alt="Sky Team " class=" " >
         <nav  class="my-2 my-md-0 mr-10 md-3 ml-2 ">
             <a class="p-2 text-light font-weight-bold borderrojo " href="# ">RESERVE<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">CHECK-IN<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">ADMINISTRAR MIS VIAJES<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">ESTADO DEL VUELO<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">¿NECESITA AYUDA?<span class="sr-only ">(current)</span></a>
-            <a class="p-2 text-light font-weight-bold " href="# ">Más<small class="rojo ml-1 " >></small> <span class="sr-only ">(current)</span></a>
+            <a class="p-2 text-light font-weight-bold " href="# ">Más <span class="rojo ml-1 " >></span> </a>
         </nav>
         <div class="my-0 ml-md-auto ">
             <a class="p-2 text-light font-weight-bold " href="# ">INSCRÍBASE<span class="sr-only ">(current)</span></a>
             <a class="btn-rojo-pequeño font-weight-bold text-light " href="# "> ENTRAR <span class="sr-only ">(current)</span></a>
-            <a href=" "class="ml-2 "><img class=" " width="19 " height="19 " src="bell.png " alt="Notificaciones ">            
-            <a href=" "class="ml-2 p-2 linealateral "><img class=" " width="22 " height="22 " src="search.png " alt="Notificaciones "></a>
+            <a href=" "class="ml-2 "><img class=" " width="19 " height="19 " src="https://github.com/outso15/delta/blob/master/bell.png?raw=true " alt="Notificaciones ">            
+            <a href=" "class="ml-2 p-2 linealateral "><img class=" " width="22 " height="22 " src="https://github.com/outso15/delta/blob/master/search.png?raw=true " alt="Notificaciones "></a>
         </div>
     </div>
 
-     <!--Form vuelos-->
+    <div class="d-flex flex-md-row aling-items-center p-3 px-md-4 mb-0 mt-0 bg-bluedark border-bottom shadow-sm " style="width: 100rem; height: 10rem; " id="Reserva " >
+        <div class="d-flex flex-row bd-highlight ml-5 bk-form ">
+            <div class="p-2 bd-highlight aling-items-center ml-5 mt-2 ">
+                <span class="d-flex flex-col ml-5 " style="font-size: 2rem; align-items: center; ">BOG</span>
+                <span class="d-flex flex-col sp-p ml-4 "style="font-size: .75rem; ">bogotá,Colombia</span>
+            </div>
+            <div class="p-2 bd-highlight mt-2 mx-4 "  >
+                <span class="d-flex flex-col "  style="font-size: 3rem; color:red; font-weight: 1000; ">↔</span>
+            </div>
+            <div class="p-2 bd-highlight mt-2 ml-1 ">
+                <span class="d-flex flex-col " style="font-size: 2rem; ">Hacia</span>
+                <span class="d-flex flex-col " style="font-size: .75rem; ">Su destino</span>
+            </div>
+            <div class="d-flex mt-2 ml-2 ">
+                <div class="dropdown p-3 ">
+                  <button type="button " class="btn " id="dropdownMenuOffset " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                    <span style="font-size: 1.2rem; ">Ida y vuelta </span> <small class="rojo p-2 ">   \/</small>
+                    <div class="dropdown-divider "></div>
+                  </button>
+                  <div class="dropdown-menu " aria-labelledby="dropdownMenuOffset ">
+                    <a class="dropdown-item " href="# ">Ida y vuelta</a>
+                    <div class="dropdown-divider "></div>
+                    <a class="dropdown-item " href="# ">Viaje de ida</a>
+                    <div class="dropdown-divider "></div>
+                    <a class="dropdown-item " href="# ">Varias ciudades</a>
+                  </div>
+                </div>
+
+          </div>
+          <div class="d-flex mt-2 ml-1 " style="width: 10rem; height: 10rem; ">
+            <div class="dropdown p-3 ">
+              <button type="button " class="btn " id="dropdownMenuOffset " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false " style="width: 10rem; ">
+                <span style="font-size: 1.2rem; ">1 pasajero</span> <small class="rojo p-2 ">   \/</small>
+                <div class="dropdown-divider "></div>
+              </button>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenuOffset ">
+                <a class="dropdown-item " href="# ">1 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">2 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">3 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">4 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">5 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">6 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">7 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">8 pasajero</a>
+                <div class="dropdown-divider "></div>
+                <a class="dropdown-item " href="# ">9 pasajero</a>
+              </div>
+            </div>
+      </div>
 
 
-    <div class="contenedor ">
-        <img src="air.png " class=" " alt="... ">
+      <div class="d-flex mt-2 ml-5 mr-5 " style="width: 10rem; height: 10rem; ">
+        <div class="dropdown p-3 ">
+          <button type="button " class="btn " id="dropdownMenuOffset " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false " style="width: 12rem; ">
+            <span style="font-size: 1.2rem;; ">Salida <small class="rojo p-2 " style="font-size: 1rem; ">-</small> <span>Regreso</span></span>  
+            <div class="dropdown-divider "></div>
+          </button>
+          <div class="dropdown-menu " style="width: 20rem; height: 20rem; " aria-labelledby="dropdownMenuOffset ">
+           
+          </div>
+        </div>
+  </div>
+      <button type="button " class=" btn btn-circle mt-4 ml-5 text-light " > → </button> 
+</div>
+</div>
+
+
+    <div class="d-flex contenedor flex-md-row ">
+        <img src="https://github.com/danilotros/delta/blob/master/air.png?raw=true " class=" " width="100% " alt="... ">
         <div class="texto-encima ">
+            <a href="# "><font class="p font-weight-bold text-light " size=12>una experiencia</font></a>
             
-            <font class="p font-weight-bold text-light " size=12>una experiencia</font>
         </div>
         <div class="texto-encima2 ">
-            <font class="p font-weight-bold text-light ">DE VIAJE MÁS SEGURA.</font>
+            <a href="# "> <font class="p font-weight-bold text-light ">DE VIAJE MÁS SEGURA.</font></a>
+           
         </div>
         <div class="texto-encima3 ">    
-            <font class="p2 font-weight-bold text-light card-text ">Estamos listos para brindarle seguridad en cada paso.></font>
+            <a href=" "><font class="p2 font-weight-bold text-light card-text ">Estamos listos para brindarle seguridad en cada paso.></font></a>
         </div>
         <div class="texto-encima4 ">
             <a class="btn btn-rojo font-weight-bold text-light " width=" " href="# ">CONOCER CÓMO<span class="sr-only ">(current)</span></a>
         </div>
             
-        </div>
+        
     </div>
 
-    <div class="contenedor bg-bluedark ">
+
+    <div class="contenedor d-flex d-flex flex-md-row align-items-center p-4 bg-bluedark justify-content-md-center ">
         <div class="row ">
-          <div class="col ">col</div>
-          <div class="col ">col</div>
-          <div class="w-100 "></div>
-          <div class="col ">col</div>
-          <div class="col ">col</div>
+            <div class="col-md-auto ">
+                <img src="https://github.com/outso15/delta/blob/master/vacation.png?raw=true " width="26 "  alt=" ">              
+            </div>
+            <div class="col-md-auto ">
+                <a class="p-2 text-light font-weight-bold " href="# ">OFERTAS DE VACACIONES   <span style="color: #5F7D95 ">></span> </a>
+            </div>
+            <div class="col-md-auto ">
+                <img src="https://github.com/outso15/delta/blob/master/beb.png?raw=true " width="26 "  alt=" "> 
+            </div>
+            <div class="col-md-auto ">
+                <a class="p-2 text-light font-weight-bold " href="# ">COMPRAR HOTELES    <span style="color: #5F7D95 ">></span> </a>
+            </div>
+            <div class="col-md-auto ">
+                <img src="https://github.com/outso15/delta/blob/master/car.png?raw=true " width="26 "  alt=" "> 
+            </div>
+            <div class="col-md-auto ">
+                <a class="p-2 text-light font-weight-bold " href="# ">ALQUILAR UN AUTO    <span style="color: #5F7D95 ">></span> </a>
+            </div>
+            <div class="col-md-auto " >
+                <a class="p-3 text-light font-weight-bold linealateral " href="# "> Cargos adicionales por equipaje y viaje actualizados  <span style="color: #5F7D95 ">></span> </a>
+            </div>       
+          
         </div>
       </div>
 
 
-    
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
 </body>
 
 
