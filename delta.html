@@ -15,22 +15,92 @@
         background-color: #11172b;
     }
     .rojo{
-        color: red;
+        color: #e31c34;
+        option:hover
     }
+    
     .borderrojo{
         border-bottom-style: solid;
-        border-color: red;
+        border-color:#e31c34;
     }
     .linealateral{
         border-left-style:  solid;
         border-left-width: thin;        
         border-color:white;
     }
+    .pading{
+        padding: 30; important
+
+    }
+
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    
+    .texto-encima{
+        position: absolute;
+        top: 60px;
+        left: 4%;
+        letter-spacing: -1px;
+        }
+    .texto-encima2{
+        position: absolute;
+        top: 117px;
+        left: 4%;
+    }
+    .texto-encima3{
+        position: absolute;
+        top: 183px;
+        left: 4%;      
+    }
+    .texto-encima4{
+        position: absolute;
+        top: 230px;
+        left: 5.5%;
+    }
+    .p {
+                font-size: 300%;
+                font-weight: bold;
+                letter-spacing: -4px;
+                text-align: center;                
+                text-transform: uppercase;
+                background-color:#4b5f77;
+    }
+    .p2{
+        font-size: 100%;
+                font-weight: bold;
+                letter-spacing: 2px;
+                text-align: center;                
+                text-transform:initial ;
+                background-color:#4b5f77;
+    }
+    .btn-rojo-pequeño{
+        border-bottom-style: solid;
+        border-color:#e31c34;
+        background-color: #e31c34;
+        width: 22;
+        height: 70;
+        letter-spacing: 2px;
+        align-self: center;        
+
+    }
+    .btn-rojo{
+        border-bottom-style: solid;
+        border-color:#e31c34;
+        background-color: #e31c34;
+        width: 32;
+        height: 70;
+
+    }
+
 
 </style>
 
 <body>
-    <div class="d-flex flex-md-row align-items-center p-3 px-md-4 mb-3 bg-bluedark border-bottom shadow-sm ">
+    <div class="d-flex flex-md-row align-items-center p-3 px-md-4 bg-bluedark border-bottom shadow-sm ">
         <img src="delta-airlines.png " width="1.8% " alt="Delta Airlines "  class="ml-4 " >
         <h4 class="my-0 mr-1 md-auto font-weight-bold text-light ml-2 " >D E L T A</h4>
         <img src="sky Team.svg " alt="Sky Team " class=" " >
@@ -42,16 +112,49 @@
             <a class="p-2 text-light font-weight-bold " href="# ">¿NECESITA AYUDA?<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">Más<small class="rojo ml-1 " >></small> <span class="sr-only ">(current)</span></a>
         </nav>
-        <div class=" ">
-            <a class="p-2 text-light font-weight-bold ml-15 " href="# ">INSCRÍBASE<span class="sr-only ">(current)</span></a>
-            <a class="btn btn-danger ml-2 " href="# ">ENTRAR<span class="sr-only ">(current)</span></a>
-            <a href=" "class="ml-2 "><img class=" " width="19 " height="19 " src="bell.png " alt="Notificaciones ">
-            
-            <a href=" "class="ml-2 p-2 linealateral "><img class=" " width="22 " height="22 " src="search.png " alt="Notificaciones ">
+        <div class="my-0 ml-md-auto ">
+            <a class="p-2 text-light font-weight-bold " href="# ">INSCRÍBASE<span class="sr-only ">(current)</span></a>
+            <a class="btn-rojo-pequeño font-weight-bold text-light " href="# "> ENTRAR <span class="sr-only ">(current)</span></a>
+            <a href=" "class="ml-2 "><img class=" " width="19 " height="19 " src="bell.png " alt="Notificaciones ">            
+            <a href=" "class="ml-2 p-2 linealateral "><img class=" " width="22 " height="22 " src="search.png " alt="Notificaciones "></a>
         </div>
-    </a>
+    </div>
 
-    </body>
+     <!--Form vuelos-->
+
+
+    <div class="contenedor ">
+        <img src="air.png " class=" " alt="... ">
+        <div class="texto-encima ">
+            
+            <font class="p font-weight-bold text-light " size=12>una experiencia</font>
+        </div>
+        <div class="texto-encima2 ">
+            <font class="p font-weight-bold text-light ">DE VIAJE MÁS SEGURA.</font>
+        </div>
+        <div class="texto-encima3 ">    
+            <font class="p2 font-weight-bold text-light card-text ">Estamos listos para brindarle seguridad en cada paso.></font>
+        </div>
+        <div class="texto-encima4 ">
+            <a class="btn btn-rojo font-weight-bold text-light " width=" " href="# ">CONOCER CÓMO<span class="sr-only ">(current)</span></a>
+        </div>
+            
+        </div>
+    </div>
+
+    <div class="contenedor bg-bluedark ">
+        <div class="row ">
+          <div class="col ">col</div>
+          <div class="col ">col</div>
+          <div class="w-100 "></div>
+          <div class="col ">col</div>
+          <div class="col ">col</div>
+        </div>
+      </div>
+
+
+    
+</body>
 
 
 </html>
