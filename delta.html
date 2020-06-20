@@ -15,32 +15,25 @@
         background-color: #11172b;
     }
     .rojo{
-        color: #e31c34;
-        option:hover
+        color: red;
     }
-    
     .borderrojo{
         border-bottom-style: solid;
-        border-color:#e31c34;
+        border-color: red;
     }
-   
-    
     .linealateral{
         border-left-style:  solid;
         border-left-width: thin;        
         border-color:white;
     }
-    .pading{
-        padding: 30; important
-
-    }
-
     .contenedor{
         position: relative;
         display: inline-block;
         text-align: center;
-
+       
+        
     }
+    
     
     .texto-encima{
         position: absolute;
@@ -61,7 +54,7 @@
     .texto-encima4{
         position: absolute;
         top: 230px;
-        left: 4%;
+        left: 5.5%;
     }
     .p {
                 font-size: 300%;
@@ -97,6 +90,10 @@
         height: 70;
 
     }
+
+    .bk-bluedark{
+        background-color: #11172b;
+    }
     .bk-form span{
         color: white;
     }
@@ -106,171 +103,329 @@
         height: 4rem;
         border-radius: 3rem;
     }
-    .btn-circle{
-        border-radius: 5rem; width: 3rem; height: 3rem; 
-        background-color: #e31c34; 
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: ;
-        margin: 0;
-        cursor: pointer;
+    .card{
+      border-style: none;
     }
-    .ex2 {
-        font-size: 50px;
+    .card-body{
+      background-color: #f6f6f7;
+    }
+    .card-title{
+      color: #0b1f86;
+      font-weight: 700;
+    }
+    .card-text{
+      color: #0b1f86;
+      font-weight: 400;
     }
 
+   .bg-dark-footer{
+     background-color:  #11172b !important;
+     padding-bottom: 1.5625rem;
+     min-width: auto;
+   }
+ 
+     
+   
+   .icon-search img{
+     width: 2.125rem;
+     height: 2.125rem;
+     margin-left: 0.875rem;
+     
+   }
+   .popular-list-1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    margin-left: 1rem;
+   }
+   .popular-list-2{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    margin-left: 1rem;
+   }
+   .popular-list-3{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    margin-left: 1rem;
+   }
+   .hp-footer hr{
+     height: 0;
+     margin-top: 3.375rem;
+     margin-bottom: 3.625rem;
+     border-top-color: #3a4351;
+     border-bottom: 0;
+     width: 70rem;
+   }
 
 </style>
 
 <body>
-    <div class="d-flex flex-md-row align-items-center p-4 px-md-4 bg-bluedark border-bottom shadow-sm ">
-        <img src="https://github.com/outso15/delta/blob/master/delta-airlines.png?raw=true " width="1.8% " alt="Delta Airlines "  class="ml-4 " >
+    <div class="d-flex flex-md-row align-items-center p-3 px-md-4 mb-0 bg-bluedark border-bottom shadow-sm ">
+        <img src="delta-airlines.png " width="1.8% " alt="Delta Airlines "  class="ml-4 " >
         <h4 class="my-0 mr-1 md-auto font-weight-bold text-light ml-2 " >D E L T A</h4>
-        <img src="https://raw.githubusercontent.com/outso15/delta/d71160e44076ae20605ec1ab43490def9358aea4/Sky%20Team.svg " alt="Sky Team " class=" " >
+        <img src="sky Team.svg " alt="Sky Team " class=" " >
         <nav  class="my-2 my-md-0 mr-10 md-3 ml-2 ">
             <a class="p-2 text-light font-weight-bold borderrojo " href="# ">RESERVE<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">CHECK-IN<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">ADMINISTRAR MIS VIAJES<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">ESTADO DEL VUELO<span class="sr-only ">(current)</span></a>
             <a class="p-2 text-light font-weight-bold " href="# ">¿NECESITA AYUDA?<span class="sr-only ">(current)</span></a>
-            <a class="p-2 text-light font-weight-bold " href="# ">Más <span class="rojo ml-1 " >></span> </a>
+            <a class="p-2 text-light font-weight-bold " href="# ">Más<small class="rojo ml-1 " >></small> <span class="sr-only ">(current)</span></a>
         </nav>
-        <div class="my-0 ml-md-auto ">
-            <a class="p-2 text-light font-weight-bold " href="# ">INSCRÍBASE<span class="sr-only ">(current)</span></a>
-            <a class="btn-rojo-pequeño font-weight-bold text-light " href="# "> ENTRAR <span class="sr-only ">(current)</span></a>
-            <a href=" "class="ml-2 "><img class=" " width="19 " height="19 " src="https://github.com/outso15/delta/blob/master/bell.png?raw=true " alt="Notificaciones ">            
-            <a href=" "class="ml-2 p-2 linealateral "><img class=" " width="22 " height="22 " src="https://github.com/outso15/delta/blob/master/search.png?raw=true " alt="Notificaciones "></a>
+        <div class=" ">
+            <a class="p-2 text-light font-weight-bold ml-15 " href="# ">INSCRÍBASE<span class="sr-only ">(current)</span></a>
+            <a class="btn btn-danger ml-2 " href="# ">ENTRAR<span class="sr-only ">(current)</span></a>
+            <a href=" "class="ml-2 "><img class=" " width="19 " height="19 " src="bell.png " alt="Notificaciones ">
+            
+            <a href=" "class="ml-2 p-2 linealateral "><img class=" " width="22 " height="22 " src="search.png " alt="Notificaciones "> </a>
         </div>
     </div>
+    <div class="d-flex flex-md-row aling-items-center p-3 px-md-4 mb-0 mt-0 bk-bluedark border-bottom shadow-sm" style="width: 100rem; height: 10rem;" id="Reserva" >
+            <div class="d-flex flex-row bd-highlight ml-5 bk-form">
+                <div class="p-2 bd-highlight aling-items-center ml-5 mt-2">
+                    <span class="d-flex flex-col ml-5 " style="font-size: 2rem; align-items: center;">BOG</span>
+                    <span class="d-flex flex-col sp-p ml-4 "style="font-size: .75rem;">bogotá,Colombia</span>
+                </div>
+                <div class="p-2 bd-highlight mt-2 mx-4"  >
+                    <span class="d-flex flex-col"  style="font-size: 3rem; color:red; font-weight: 1000;">↔</span>
+                </div>
+                <div class="p-2 bd-highlight mt-2 ml-1">
+                    <span class="d-flex flex-col" style="font-size: 2rem;">Hacia</span>
+                    <span class="d-flex flex-col" style="font-size: .75rem;">Su destino</span>
+                </div>
+                <div class="d-flex mt-2 ml-2">
+                    <div class="dropdown p-3">
+                      <button type="button" class="btn" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span style="font-size: 1.2rem;">Ida y vuelta </span> <small class="rojo p-2">   \/</small>
+                        <div class="dropdown-divider"></div>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                        <a class="dropdown-item" href="#">Ida y vuelta</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Viaje de ida</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Varias ciudades</a>
+                      </div>
+                    </div>
 
-    <div class="d-flex flex-md-row aling-items-center p-3 px-md-4 mb-0 mt-0 bg-bluedark border-bottom shadow-sm " style="width: 100rem; height: 10rem; " id="Reserva " >
-        <div class="d-flex flex-row bd-highlight ml-5 bk-form ">
-            <div class="p-2 bd-highlight aling-items-center ml-5 mt-2 ">
-                <span class="d-flex flex-col ml-5 " style="font-size: 2rem; align-items: center; ">BOG</span>
-                <span class="d-flex flex-col sp-p ml-4 "style="font-size: .75rem; ">bogotá,Colombia</span>
-            </div>
-            <div class="p-2 bd-highlight mt-2 mx-4 "  >
-                <span class="d-flex flex-col "  style="font-size: 3rem; color:red; font-weight: 1000; ">↔</span>
-            </div>
-            <div class="p-2 bd-highlight mt-2 ml-1 ">
-                <span class="d-flex flex-col " style="font-size: 2rem; ">Hacia</span>
-                <span class="d-flex flex-col " style="font-size: .75rem; ">Su destino</span>
-            </div>
-            <div class="d-flex mt-2 ml-2 ">
-                <div class="dropdown p-3 ">
-                  <button type="button " class="btn " id="dropdownMenuOffset " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
-                    <span style="font-size: 1.2rem; ">Ida y vuelta </span> <small class="rojo p-2 ">   \/</small>
-                    <div class="dropdown-divider "></div>
+              </div>
+              <div class="d-flex mt-2 ml-1" style="width: 10rem; height: 10rem;">
+                <div class="dropdown p-3">
+                  <button type="button" class="btn" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 10rem;">
+                    <span style="font-size: 1.2rem; ">1 pasajero</span> <small class="rojo p-2">   \/</small>
+                    <div class="dropdown-divider"></div>
                   </button>
-                  <div class="dropdown-menu " aria-labelledby="dropdownMenuOffset ">
-                    <a class="dropdown-item " href="# ">Ida y vuelta</a>
-                    <div class="dropdown-divider "></div>
-                    <a class="dropdown-item " href="# ">Viaje de ida</a>
-                    <div class="dropdown-divider "></div>
-                    <a class="dropdown-item " href="# ">Varias ciudades</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                    <a class="dropdown-item" href="#">1 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">2 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">3 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">4 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">5 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">6 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">7 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">8 pasajero</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">9 pasajero</a>
                   </div>
                 </div>
-
           </div>
-          <div class="d-flex mt-2 ml-1 " style="width: 10rem; height: 10rem; ">
-            <div class="dropdown p-3 ">
-              <button type="button " class="btn " id="dropdownMenuOffset " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false " style="width: 10rem; ">
-                <span style="font-size: 1.2rem; ">1 pasajero</span> <small class="rojo p-2 ">   \/</small>
-                <div class="dropdown-divider "></div>
+
+
+          <div class="d-flex mt-2 ml-5 mr-5" style="width: 10rem; height: 10rem;">
+            <div class="dropdown p-3">
+              <button type="button" class="btn" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 12rem;">
+                <span style="font-size: 1.2rem;;">Salida <small class="rojo p-2" style="font-size: 1rem;">-</small> <span>Regreso</span></span>  
+                <div class="dropdown-divider"></div>
               </button>
-              <div class="dropdown-menu " aria-labelledby="dropdownMenuOffset ">
-                <a class="dropdown-item " href="# ">1 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">2 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">3 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">4 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">5 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">6 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">7 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">8 pasajero</a>
-                <div class="dropdown-divider "></div>
-                <a class="dropdown-item " href="# ">9 pasajero</a>
+              <div class="dropdown-menu" style="width: 20rem; height: 20rem;" aria-labelledby="dropdownMenuOffset">
+               
               </div>
             </div>
       </div>
-
-
-      <div class="d-flex mt-2 ml-5 mr-5 " style="width: 10rem; height: 10rem; ">
-        <div class="dropdown p-3 ">
-          <button type="button " class="btn " id="dropdownMenuOffset " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false " style="width: 12rem; ">
-            <span style="font-size: 1.2rem;; ">Salida <small class="rojo p-2 " style="font-size: 1rem; ">-</small> <span>Regreso</span></span>  
-            <div class="dropdown-divider "></div>
-          </button>
-          <div class="dropdown-menu " style="width: 20rem; height: 20rem; " aria-labelledby="dropdownMenuOffset ">
-           
-          </div>
-        </div>
-  </div>
-      <button type="button " class=" btn btn-circle mt-4 ml-5 text-light " > → </button> 
-</div>
-</div>
-
-
-    <div class="d-flex contenedor flex-md-row ">
-        <img src="https://github.com/danilotros/delta/blob/master/air.png?raw=true " class=" " width="100% " alt="... ">
-        <div class="texto-encima ">
-            <a href="# "><font class="p font-weight-bold text-light " size=12>una experiencia</font></a>
-            
-        </div>
-        <div class="texto-encima2 ">
-            <a href="# "> <font class="p font-weight-bold text-light ">DE VIAJE MÁS SEGURA.</font></a>
-           
-        </div>
-        <div class="texto-encima3 ">    
-            <a href=" "><font class="p2 font-weight-bold text-light card-text ">Estamos listos para brindarle seguridad en cada paso.></font></a>
-        </div>
-        <div class="texto-encima4 ">
-            <a class="btn btn-rojo font-weight-bold text-light " width=" " href="# ">CONOCER CÓMO<span class="sr-only ">(current)</span></a>
-        </div>
-            
-        
+          <button type="button" class="btn btn-danger mt-4 ml-5" style="border-radius: 5rem; width: 3rem; height: 3rem;">→</button> 
+    </div>
     </div>
 
 
-    <div class="contenedor d-flex d-flex flex-md-row align-items-center p-4 bg-bluedark justify-content-md-center ">
-        <div class="row ">
-            <div class="col-md-auto ">
-                <img src="https://github.com/outso15/delta/blob/master/vacation.png?raw=true " width="26 "  alt=" ">              
-            </div>
-            <div class="col-md-auto ">
-                <a class="p-2 text-light font-weight-bold " href="# ">OFERTAS DE VACACIONES   <span style="color: #5F7D95 ">></span> </a>
-            </div>
-            <div class="col-md-auto ">
-                <img src="https://github.com/outso15/delta/blob/master/beb.png?raw=true " width="26 "  alt=" "> 
-            </div>
-            <div class="col-md-auto ">
-                <a class="p-2 text-light font-weight-bold " href="# ">COMPRAR HOTELES    <span style="color: #5F7D95 ">></span> </a>
-            </div>
-            <div class="col-md-auto ">
-                <img src="https://github.com/outso15/delta/blob/master/car.png?raw=true " width="26 "  alt=" "> 
-            </div>
-            <div class="col-md-auto ">
-                <a class="p-2 text-light font-weight-bold " href="# ">ALQUILAR UN AUTO    <span style="color: #5F7D95 ">></span> </a>
-            </div>
-            <div class="col-md-auto " >
-                <a class="p-3 text-light font-weight-bold linealateral " href="# "> Cargos adicionales por equipaje y viaje actualizados  <span style="color: #5F7D95 ">></span> </a>
-            </div>       
+    <div class="d-flex contenedor flex-md-row ">
+      <img src="https://github.com/danilotros/delta/blob/master/air.png?raw=true " class=" " width="100% " alt="... ">
+      <div class="texto-encima ">
+          <a href="# "><font class="p font-weight-bold text-light " size=12>una experiencia</font></a>
           
+      </div>
+      <div class="texto-encima2 ">
+          <a href="# "> <font class="p font-weight-bold text-light ">DE VIAJE MÁS SEGURA.</font></a>
+         
+      </div>
+      <div class="texto-encima3 ">    
+          <a href=" "><font class="p2 font-weight-bold text-light card-text ">Estamos listos para brindarle seguridad en cada paso.></font></a>
+      </div>
+      <div class="texto-encima4 ">
+          <a class="btn btn-rojo font-weight-bold text-light " width=" " href="# ">CONOCER CÓMO<span class="sr-only ">(current)</span></a>
+      </div>
+          
+  </div>
+    
+
+    
+  
+  <div class="contenedor d-flex d-flex flex-md-row align-items-center p-4 bg-bluedark justify-content-md-center ">
+    <div class="row ">
+        <div class="col-md-auto ">
+            <img src="https://github.com/outso15/delta/blob/master/vacation.png?raw=true " width="26 "  alt=" ">              
+        </div>
+        <div class="col-md-auto ">
+            <a class="p-2 text-light font-weight-bold " href="# ">OFERTAS DE VACACIONES   <span style="color: #5F7D95 ">></span> </a>
+        </div>
+        <div class="col-md-auto ">
+            <img src="https://github.com/outso15/delta/blob/master/beb.png?raw=true " width="26 "  alt=" "> 
+        </div>
+        <div class="col-md-auto ">
+            <a class="p-2 text-light font-weight-bold " href="# ">COMPRAR HOTELES    <span style="color: #5F7D95 ">></span> </a>
+        </div>
+        <div class="col-md-auto ">
+            <img src="https://github.com/outso15/delta/blob/master/car.png?raw=true " width="26 "  alt=" "> 
+        </div>
+        <div class="col-md-auto ">
+            <a class="p-2 text-light font-weight-bold " href="# ">ALQUILAR UN AUTO    <span style="color: #5F7D95 ">></span> </a>
+        </div>
+        <div class="col-md-auto " >
+            <a class="p-3 text-light font-weight-bold linealateral " href="# "> Cargos adicionales por equipaje y viaje actualizados  <span style="color: #5F7D95 ">></span> </a>
+        </div>       
+      
+    </div>
+</div>
+  <div class="d-flex flex-column mt-5 mb-3">
+  <span style="text-align: center; color:#0b1f66; font-weight:800;font-size:.9375rem;">LA EXPERIENCIA DEL CLIENTE DE DELTA</span>
+  </div>
+  <div class="d-flex flex-column my-4">
+    <span style="text-align: center; color:#0b1f66; font-size: 3.25rem;">Brindándole apoyo en su viaje</span>
+  </div>
+  <div class="d-flex flex-row bd-highlight my-5 justify-content-center">
+    <div class="card" style="width: 20rem;">
+      <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200325T1219469810400.html/content/dam/delta-tnt/homepage/covid/icon-flight-changes-1000.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¿PUEDO CANCELAR/CAMBIAR MI VUELO?</h5>
+        <p class="card-text">
+          Entendemos que puede tener preguntas. Obtenga más información sobre nuestras exenciones simplificadas y averigüe si su próximo vuelo cumple los requisitos.</p>
+      </div>
+    </div>
+    <div class="card ml-4" style="width: 20rem;">
+      <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200325T1219468950400.html/content/dam/delta-tnt/homepage/covid/icon-ecredit-1000.jpg" class="card-img-top" alt="...">
+     
+      <div class="card-body">
+        <h5 class="card-title">¿CÓMO CAMBIO MI VUELO Y ENCUENTRO MI CRÉDITO ELECTRÓNICO?</h5>
+        <p class="card-text">Si su viaje se vio afectado por la situación del coronavirus, puede cancelar o cambiar su vuelo fácilmente. Obtenga información sobre cómo modificar su viaje y hacer una nueva reservación con crédito electrónico en nuestras guías paso a paso.</p>
+      </div>
+    </div>
+    <div class="card ml-4" style="width: 20rem;">
+      <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200325T1219468420400.html/content/dam/delta-tnt/homepage/covid/icon-bell-1000.jpg" class="card-img-top" alt="...">
+      
+      <div class="card-body">
+        <h5 class="card-title">¿CUÁLES SON LAS ÚLTIMAS ACTUALIZACIONES DE VIAJE?</h5>
+        <p class="card-text">La información es más importante que nunca. Nos comprometemos a publicar la última información lo más rápido posible, con total transparencia y, como siempre, priorizando su seguridad.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex flex-row bd-highlight  justify-content-rigth" style="margin:0 0 0 7.5rem; height: 25rem;">
+    <div class="card mr-0 ml-5" style="width: 18rem; ">
+      <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200504T1357339150400.html/content/dam/delta-com/airplanes/airplane-sea-boeing-snow-1400.jpg" style="height: 14.226875rem; width: 30rem;" class="card-img-top" alt="...">
+      <div class="card-body"style="width: 30rem;" >
+        <h5 class="card-title">EXPERIENCIA DE VIAJE ADAPTADA</h5>
+        <p class="card-text">
+          Descubra cómo Delta sigue evaluando y realizando ajustes en su experiencia de viaje mientras se mantiene en estrecha coordinación con los CDC y la OMS para asegurar su seguridad.</p>
+      </div>
+    </div>
+    <div class="card mr-5 " style="width: 18rem; margin: 0 0 0 15rem; height: 25rem;">
+      <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200325T1154442160400.html/content/dam/delta-tnt/homepage/covid/delta-aircraft-cleaning-hand-1200.jpg" style="height: 14.226875rem; width: 30rem;" class="card-img-top" alt="...">
+     
+      <div class="card-body" style="width: 30rem; ">
+        <h5 class="card-title">NUESTRO COMPROMISO CON SU SEGURIDAD</h5>
+        <p class="card-text">Estamos haciendo todo lo posible para ofrecer una experiencia de viaje segura, saludable y limpia. Cuidar de nuestros clientes y empleados es nuestra prioridad principal. </p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="card my-5 " style=" width: 63rem; margin: 0 0 0 10.5rem;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200325T1209251220400.html/content/dam/delta-tnt/homepage/covid/fly-delta-app-1500.jpg" class="card-img" style="height: 15rem;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body" style="height: 15rem;">
+          <h5 class="card-title mt-3" ">DESCARGUE LA FLY DELTA APP</h5>
+          <hr class="card-header-underline" style="
+          width: 5.125rem;
+          margin: 1.5rem 0;
+          border-bottom: .1875rem solid #e3132c;">
+          <p class="card-text mt-5">Descargue la aplicación para recibir notificaciones de actualizaciones de vuelos y acceda a su pase de abordar móvil para limitar el uso de quioscos de pantalla táctil. </p>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="card my-5 " style=" width: 63rem; margin: 0 0 0 10.5rem;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="//content.delta.com/content/www/en_US/personalization/campaign/homepage/banner-promoquilt/default.damAssetRender.20200617T1058385000400.html/content/dam/delta-com/ux-team/screens-shop-book-350.jpg" class="card-img" style="height: 15rem;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body" style="height: 15rem;">
+          <h5 class="card-title mt-3" >RESERVE CON CONFIANZA</h5>
+          <hr class="card-header-underline" style="
+          width: 5.125rem;
+          margin: 1.5rem 0;
+          border-bottom: .1875rem solid #e3132c;">
+          <p class="card-text mt-5">Estamos listos cuando usted lo esté. Estamos suprimiendo los cargos por cambio en general y, por encima de todo, tenga la tranquilidad de que el valor de su boleto no se perderá si necesita realizar un cambio. </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <footer>
+    <div class="hp-footer bg-dark-footer">
+      <div class="footer-search-container text-md-center ">
+        <div class="row">
+          <div class="col-md-12 footer-search-topic mt-4">
+            <a href="" class="search-text" style="text-decoration: none; color: white; font-size: 3rem;">Buscar un tema...</a>
+            <div class="search-container d-inline-block float-lg-none">
+              <a href="" class="search icon-search circle-outline">
+                <img src="search.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex d-flex-wrap justify-content-center d-sm-none d-md-flex mt-3">
+        <div class="footer-list-container">
+          
+          <ul class="d-flex flex-col list-inline popular-list">
+            <h3 class="mr-2">Temas populares:</h3>
+            <li class="list-inline-item mt-2"><a href="" class="popular-list-1">¿Necesita ayuda?</a></li>
+            <li class="list-inline-item mt-2"><a href="" class="popular-list-2">Coronavirus</a></li>
+            <li class="list-inline-item mt-2"><a href="" class="popular-list-3">Créditos electrónicos</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="d-none d-md-block">
+    </div>
+    
+  </footer>
+    
 
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 
 
 </html>
